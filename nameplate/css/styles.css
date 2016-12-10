@@ -1,0 +1,146 @@
+/********************
+YOUR STYLES
+*******************/
+
+/* Layout */
+* { box-sizing: border-box; }
+
+section {
+  /* Fallback: Floated in No JS */
+  float: left;
+ padding: 1em;
+    
+
+}
+
+/* clearfix */
+section:after {
+  content: '';
+  display: block;
+  clear: both;
+    
+}
+
+article {
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.me{
+    width: 100%;
+   
+    
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: .8em;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+p{
+font-family: 'Questrial', sans-serif;
+    text-align: left;
+    line-height: 2em;
+    font-size: .8em;
+    margin: 3em;
+    
+}
+
+
+
+ul,
+li {
+text-decoration: none;
+    list-style: none;  
+
+}
+
+a img{
+    margin: 1em;
+    
+}
+
+
+
+
+/* Masonry Styling */
+section {
+  background: rgba(183, 182, 182, 0.75);
+  /* vertical space between */
+  margin-bottom: 10px;
+  
+  width: 200px;
+}
+
+.tall {
+
+}
+
+.med {
+  
+}
+
+.short {
+ 
+}
+
+/********************
+MEDIA QUERIES
+*******************/
+
+
+
+/* Mobile */
+
+@media (max-width: 480px) {
+    
+    p{
+font-family: 'Questrial', sans-serif;
+    text-align: left;
+    line-height: 1.8em;
+    font-size: .6em;
+    margin: auto;
+}
+
+    
+
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+   
+    p{
+font-family: 'Questrial', sans-serif;
+    text-align: left;
+    line-height: 1.8em;
+    font-size: .7em;
+    margin: 2em;
+}        
+    
+
+    
+}
+
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+}
+
+
+
